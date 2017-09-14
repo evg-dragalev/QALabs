@@ -7,7 +7,7 @@ public class Student{
 
     private String lastName;
 
-    private ArrayList<SubjectMarksList> subjects;
+    private ArrayList<SubjectMarks> subjects;
 
 
     public String getFirstName() {
@@ -26,11 +26,11 @@ public class Student{
         this.lastName = lastName;
     }
 
-    public ArrayList<SubjectMarksList> getSubjects() {
+    public ArrayList<SubjectMarks> getSubjects() {
         return subjects;
     }
 
-    public void setSubjects(ArrayList<SubjectMarksList> subjects) {
+    public void setSubjects(ArrayList<SubjectMarks> subjects) {
         this.subjects = subjects;
     }
 }

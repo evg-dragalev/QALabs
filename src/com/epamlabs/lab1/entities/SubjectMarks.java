@@ -2,7 +2,7 @@ package com.epamlabs.lab1.entities;
 
 import java.util.ArrayList;
 
-public class SubjectMarksList{
+public class SubjectMarks {
 
     private String subjectName;
 
