@@ -2,7 +2,7 @@ package com.epamlabs.lab1.entities;
 
 import java.util.ArrayList;
 
-public class Student{
+public class Student implements Unit{
     private String firstName;
 
     private String lastName;
@@ -32,5 +32,10 @@ public class Student{
 
     public void setSubjects(ArrayList<SubjectMarks> subjects) {
         this.subjects = subjects;
+    }
+
+    @Override
+    public String toString() {
+        return "Student: " + firstName + " " + lastName;
     }
 }

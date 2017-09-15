@@ -2,7 +2,7 @@ package com.epamlabs.lab1.entities;
 
 import java.util.ArrayList;
 
-public class SubjectMarks {
+public class SubjectMarks implements Unit{
 
     private String subjectName;
 
@@ -33,5 +33,16 @@ public class SubjectMarks {
 
     public void setSemMarks(ArrayList<Integer> semMarks) {
         this.semMarks = semMarks;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        res.append(this.subjectName).append(" :");
+        for(int mark: this.semMarks){
+            res.append(" ").append(mark);
+        }
+        res.append(", exam: ").append((this.examMark!=-1)?"none":this.examMark);
+        return res.toString();
     }
 }

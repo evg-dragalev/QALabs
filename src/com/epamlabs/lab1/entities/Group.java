@@ -1,8 +1,8 @@
 package com.epamlabs.lab1.entities;
 
-import java.util.List;
+import java.util.ArrayList;
 
-public class Group {
+public class Group implements Unit{
 
     private int course;
 
@@ -10,7 +10,7 @@ public class Group {
 
     private String speciality;
 
-    private List<Student> students;
+    private ArrayList<Student> students;
 
 
     public int getCourse() {
@@ -41,7 +41,12 @@ public class Group {
         this.speciality = name;
     }
 
-    public List<Student> getStudents() {
+    public ArrayList<Student> getStudents() {
         return students;
+    }
+
+    @Override
+    public String toString() {
+        return "Group " + number + ", " + speciality + ", course: " + this.course;
     }
 }

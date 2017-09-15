@@ -2,7 +2,7 @@ package com.epamlabs.lab1.entities;
 
 import java.util.ArrayList;
 
-public class Faculty {
+public class Faculty implements Unit{
 
     private String name;
 
@@ -23,5 +23,10 @@ public class Faculty {
 
     public void setGroups(ArrayList<Group> groups) {
         this.groups = groups;
+    }
+
+    @Override
+    public String toString() {
+        return "Faculty: "+ name;
     }
 }
