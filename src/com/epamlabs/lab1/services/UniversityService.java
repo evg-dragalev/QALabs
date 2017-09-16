@@ -5,20 +5,36 @@ import com.epamlabs.lab1.entities.University;
 
 import java.util.ArrayList;
 
-public class UniversityService extends UnitMarkService {
+public class UniversityService extends UnitService {
 
     private University university;
 
     private FacultyService facultyService;
 
 
-    public UniversityService(FacultyService facultyService){
-        this.facultyService = facultyService;
+    public UniversityService(){
+        this.facultyService = new FacultyService();
     }
 
 
     public void setUniversity(University university) {
         this.university = university;
+    }
+
+    @Override
+    public String getUnitInfo() {
+        return this.university.toString();
+    }
+
+    @Override
+    public ArrayList<Faculty> getSubUnitList(){
+        return this.university.getFaculties();
+    }
+
+    @Override
+    public UnitService getSubUnitService(int facultyIndex) {
+        this.facultyService.setFaculty(getSubUnitList().get(facultyIndex));
+        return this.facultyService;
     }
 
     @Override

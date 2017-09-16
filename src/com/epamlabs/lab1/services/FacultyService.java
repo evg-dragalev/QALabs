@@ -5,18 +5,35 @@ import com.epamlabs.lab1.entities.Group;
 
 import java.util.ArrayList;
 
-public class FacultyService extends UnitMarkService {
+public class FacultyService extends UnitService {
 
     private Faculty faculty;
 
     private GroupService groupService;
 
-    public FacultyService(GroupService groupService){
-        this.groupService = groupService;
+    public FacultyService(){
+        this.groupService = new GroupService();
     }
+
 
     public void setFaculty(Faculty faculty) {
         this.faculty = faculty;
+    }
+
+    @Override
+    public String getUnitInfo() {
+        return this.faculty.toString();
+    }
+
+    @Override
+    public ArrayList<Group> getSubUnitList() {
+        return this.faculty.getGroups();
+    }
+
+    @Override
+    public UnitService getSubUnitService(int groupIndex){
+        groupService.setGroup(getSubUnitList().get(groupIndex));
+        return this.groupService;
     }
 
     @Override

@@ -3,27 +3,22 @@ package com.epamlabs.lab1.entities;
 import java.util.ArrayList;
 
 public class Student implements Unit{
-    private String firstName;
-
-    private String lastName;
+    private String name;
 
     private ArrayList<SubjectMarks> subjects;
 
 
-    public String getFirstName() {
-        return firstName;
+    public Student(String name, ArrayList<SubjectMarks> subjects) {
+        this.name = name;
+        this.subjects = subjects;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public String getName() {
+        return name;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public ArrayList<SubjectMarks> getSubjects() {
@@ -36,6 +31,6 @@ public class Student implements Unit{
 
     @Override
     public String toString() {
-        return "Student: " + firstName + " " + lastName;
+        return "Student: " + name + " ";
     }
 }

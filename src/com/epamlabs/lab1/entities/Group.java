@@ -8,10 +8,14 @@ public class Group implements Unit{
 
     private String number;
 
-    private String speciality;
-
     private ArrayList<Student> students;
 
+
+    public Group(int course, String number, ArrayList<Student> students) {
+        this.course = course;
+        this.number = number;
+        this.students = students;
+    }
 
     public int getCourse() {
         return course;
@@ -33,20 +37,12 @@ public class Group implements Unit{
         this.number = number;
     }
 
-    public String getSpeciality() {
-        return speciality;
-    }
-
-    public void setSpeciality(String name) {
-        this.speciality = name;
-    }
-
     public ArrayList<Student> getStudents() {
         return students;
     }
 
     @Override
     public String toString() {
-        return "Group " + number + ", " + speciality + ", course: " + this.course;
+        return "Group " + number + ", course: " + this.course;
     }
 }

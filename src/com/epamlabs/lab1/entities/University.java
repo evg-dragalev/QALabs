@@ -8,6 +8,13 @@ public class University implements Unit{
 
     private ArrayList<Faculty> faculties;
 
+
+    public University(String name, ArrayList<Faculty> faculties){
+        this.name = name;
+        this.faculties = faculties;
+    }
+
+
     public String getName() {
         return name;
     }

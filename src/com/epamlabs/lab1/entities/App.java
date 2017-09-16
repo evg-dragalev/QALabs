@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class App implements Unit {
     private ArrayList<University> universities;
 
+    public App(ArrayList<University> universities){
+        this.universities = universities;
+    }
+
     public ArrayList<University> getUniversities() {
         return universities;
     }

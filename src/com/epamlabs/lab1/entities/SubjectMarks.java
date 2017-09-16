@@ -11,6 +11,12 @@ public class SubjectMarks implements Unit{
     private ArrayList<Integer> semMarks;
 
 
+    public SubjectMarks(String subjectName, int examMark, ArrayList<Integer> semMarks) {
+        this.subjectName = subjectName;
+        this.semMarks = semMarks;
+        this.examMark = examMark;
+    }
+
     public String getSubjectName() {
         return subjectName;
     }
@@ -42,7 +48,7 @@ public class SubjectMarks implements Unit{
         for(int mark: this.semMarks){
             res.append(" ").append(mark);
         }
-        res.append(", exam: ").append((this.examMark!=-1)?"none":this.examMark);
+        res.append(", exam: ").append((this.examMark==-1)?"none":this.examMark);
         return res.toString();
     }
 }

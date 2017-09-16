@@ -1,0 +1,1232 @@
+{
+  "universities" :[
+    {
+      "name" : "univerity1",
+      "faculties" : [
+        {
+          "name": "coolfaculty1",
+          "groups": [
+            {
+              "course": 2,
+              "number": "2",
+              "students":[
+                {
+                  "name": "student1",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 3,
+              "number": "5",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "10",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "boringfaculty2",
+          "groups": [
+            {
+              "course": 1,
+              "number": "3",
+              "students":[
+                {
+                  "name": "student1",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": -1,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": -1,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": -1,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "6",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "4",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fantasticfaculty3",
+          "groups": [
+            {
+              "course": 4,
+              "number": "3",
+              "students":[
+                {
+                  "name": "student1",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "5",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "7",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "univerity2",
+      "faculties" : [
+        {
+          "name": "nerdfaculty1",
+          "groups": [
+            {
+              "course": 2,
+              "number": "2",
+              "students":[
+                {
+                  "name": "student1",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 3,
+              "number": "5",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "10",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "unusualfaculty2",
+          "groups": [
+            {
+              "course": 1,
+              "number": "3",
+              "students":[
+                {
+                  "name": "student1",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": -1,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": -1,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": -1,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": -1,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "6",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "4",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "funfaculty3",
+          "groups": [
+            {
+              "course": 4,
+              "number": "3",
+              "students":[
+                {
+                  "name": "student1",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks":[
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "5",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "course": 2,
+              "number": "7",
+              "students": [
+                {
+                  "name": "student1",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student2",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                },
+                {
+                  "name": "student3",
+                  "subjectMarks": [
+                    {
+                      "name": "subject1",
+                      "examMark": 6,
+                      "semMarks": [5, 4, 8, 3]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 4,
+                      "semMarks": [3, 7, 5, 1]
+                    },
+                    {
+                      "name": "subject2",
+                      "examMark": 7,
+                      "semMarks": [6, 9, 7, 3]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+  ]
+}

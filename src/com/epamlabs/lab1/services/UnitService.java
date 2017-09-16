@@ -1,8 +1,16 @@
 package com.epamlabs.lab1.services;
 
+import com.epamlabs.lab1.entities.Unit;
+
 import java.util.ArrayList;
 
-public abstract class UnitMarkService {
+public abstract class UnitService {
+
+    public abstract String getUnitInfo();
+
+    public abstract ArrayList<?extends Unit> getSubUnitList();
+
+    public abstract UnitService getSubUnitService(int nextUnitIndex);
 
     public abstract ArrayList<Double> getMarks();
 

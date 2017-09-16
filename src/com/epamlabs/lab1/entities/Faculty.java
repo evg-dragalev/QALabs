@@ -9,6 +9,11 @@ public class Faculty implements Unit{
     private ArrayList<Group> groups;
 
 
+    public Faculty(String name, ArrayList<Group> groups) {
+        this.name = name;
+        this.groups = groups;
+    }
+
     public String getName() {
         return name;
     }
