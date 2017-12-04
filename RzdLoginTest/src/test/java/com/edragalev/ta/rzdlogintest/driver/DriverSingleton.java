@@ -16,7 +16,7 @@ public class DriverSingleton {
 
     private final static String CHROME_DRIVER = "webdriver.chrome.driver";
 
-    private final static String CHROME_DRIVER_PATH = "src"+File.separator+"test"+File.separator+"resources"+File.separator+"chromedriver";
+    private final static String CHROME_DRIVER_PATH = "chromedriver"+File.separator+"chromedriver";
 
     public static WebDriver getDriver(){
 
@@ -26,7 +26,7 @@ public class DriverSingleton {
             driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-            logger.info("Browser started");
+            logger.info("LoginSteps started");
         }
 
         return driver;

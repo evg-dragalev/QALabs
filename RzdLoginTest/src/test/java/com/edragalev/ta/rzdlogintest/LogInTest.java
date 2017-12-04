@@ -1,6 +1,6 @@
 package com.edragalev.ta.rzdlogintest;
 
-import com.edragalev.ta.rzdlogintest.browser.Browser;
+import com.edragalev.ta.rzdlogintest.steps.LoginSteps;
 import com.edragalev.ta.rzdlogintest.page.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class LogInTest {
 
-    private Browser browser;
+    private LoginSteps loginSteps;
 
     private final static String USERNAME = "BookWyrm";
 
@@ -21,38 +21,35 @@ public class LogInTest {
 
     private final static String ERROR_MESSAGE = "Ошибка: Неверное имя пользователя или пароль";
 
-    @BeforeMethod(description = "Init browser")
+    @BeforeMethod(description = "Init loginSteps")
     public void setUp(){
-        browser = new Browser();
-        browser.init();
+        loginSteps = new LoginSteps();
+        loginSteps.init();
     }
 
     @Test
     public void incorrectUsernameOrPasswordMessage(){
-        LoginPage loginPage = new LoginPage(browser.getDriver());
+        LoginPage loginPage = new LoginPage(loginSteps.getDriver());
         loginPage.open();
         loginPage.login(USERNAME, INCORRECT_PASSWORD);
 
-        boolean condition = loginPage.getErrorMessage().equals(ERROR_MESSAGE);
+        boolean condition = loginSteps.login(USERNAME, INCORRECT_PASSWORD).getErrorMessage().equals(ERROR_MESSAGE);
 
         Assert.assertTrue(condition);
     }
 
     @Test(description = "Login to rzd")
     public void oneCanLoginRzt(){
-        LoginPage loginPage = new LoginPage(browser.getDriver());
-        loginPage.open();
-        loginPage.login(USERNAME, CORRECT_PASSWORD);
 
-        boolean condition = loginPage.getUsername().equals(NAME);
+        boolean condition = loginSteps.login(USERNAME, CORRECT_PASSWORD).getUsername().equals(NAME);
 
         Assert.assertTrue(condition);
     }
 
 
-    @AfterMethod(description = "Stop browser")
+    @AfterMethod(description = "Stop loginSteps")
     public void stopBrowser(){
-        browser.close();
+        loginSteps.close();
     }
 
 }
