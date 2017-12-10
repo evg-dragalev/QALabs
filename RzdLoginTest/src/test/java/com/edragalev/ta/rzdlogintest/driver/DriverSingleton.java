@@ -23,7 +23,7 @@ public class DriverSingleton {
         if(driver == null){
             System.setProperty(CHROME_DRIVER, CHROME_DRIVER_PATH);
             driver = new ChromeDriver();
-            driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             logger.info("LoginSteps started");

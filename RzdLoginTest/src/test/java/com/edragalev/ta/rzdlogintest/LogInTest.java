@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class LogInTest {
 
-    private LoginSteps loginSteps;
+    private LoginSteps steps;
 
     private final static String USERNAME = "BookWyrm";
 
@@ -21,19 +21,19 @@ public class LogInTest {
 
     private final static String ERROR_MESSAGE = "Ошибка: Неверное имя пользователя или пароль";
 
-    @BeforeMethod(description = "Init loginSteps")
+    @BeforeMethod(description = "Init steps")
     public void setUp(){
-        loginSteps = new LoginSteps();
-        loginSteps.init();
+        steps = new LoginSteps();
+        steps.init();
     }
 
     @Test
     public void incorrectUsernameOrPasswordMessage(){
-        LoginPage loginPage = new LoginPage(loginSteps.getDriver());
+        LoginPage loginPage = new LoginPage(steps.getDriver());
         loginPage.open();
         loginPage.login(USERNAME, INCORRECT_PASSWORD);
 
-        boolean condition = loginSteps.login(USERNAME, INCORRECT_PASSWORD).getErrorMessage().equals(ERROR_MESSAGE);
+        boolean condition = steps.login(USERNAME, INCORRECT_PASSWORD).getErrorMessage().equals(ERROR_MESSAGE);
 
         Assert.assertTrue(condition);
     }
@@ -41,15 +41,15 @@ public class LogInTest {
     @Test(description = "Login to rzd")
     public void oneCanLoginRzt(){
 
-        boolean condition = loginSteps.login(USERNAME, CORRECT_PASSWORD).getUsername().equals(NAME);
+        boolean condition = steps.login(USERNAME, CORRECT_PASSWORD).getUsername().equals(NAME);
 
         Assert.assertTrue(condition);
     }
 
 
-    @AfterMethod(description = "Stop loginSteps")
+    @AfterMethod(description = "Stop steps")
     public void stopBrowser(){
-        loginSteps.close();
+        steps.close();
     }
 
 }
