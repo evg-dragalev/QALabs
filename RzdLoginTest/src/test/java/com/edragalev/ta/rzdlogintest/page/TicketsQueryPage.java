@@ -28,7 +28,7 @@ public class TicketsQueryPage extends Page {
     @FindBy(xpath = "//button[text()='Изменить запрос']" )
     private WebElement buttonChange;
 
-    @FindBy(xpath = "//div[@class = 'j-route-info']//div[1]//div[1]")
+    @FindBy(className = "form-search__stations")
     private WebElement stationsInfo;
 
     @FindBy(xpath = "//*[@id=\"Page0\"]/div/div[1]/div[1]/div[1]/form/div[1]/div[1]/div[2]/div")

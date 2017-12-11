@@ -14,13 +14,13 @@ public class SearchPage extends Page {
 
     private final static String START_URL = "http://pass.rzd.ru/esearch/public/ru?STRUCTURE_ID=725";
 
-    @FindBy(xpath = "//span[@class='esearch-highlight'][1]")
+    @FindBy(className = "esearch-highlight")
     private WebElement highlightedText;
 
-    @FindBy(xpath = "//*[@id=\"container\"]/tbody/tr/td[2]/table/tbody/tr/td[1]/div/form/table/tbody/tr[1]/td[2]/table/tbody/tr/td[1]/input")
+    @FindBy(xpath = "//table[@class='tdPad5 nwr']/tbody/tr[1]/td[2]/table/tbody/tr/td[1]/input")
     private WebElement searchInput;
 
-    @FindBy(xpath = "//*[@id=\"container\"]/tbody/tr/td[2]/table/tbody/tr/td[1]/div/form/table/tbody/tr[4]/td[2]/button")
+    @FindBy(xpath = "//button[@type=\"submit\"]")
     private WebElement buttonSearch;
 
     @FindBy(xpath = "//div[@class='j-search_container']//div[1]")

@@ -22,7 +22,7 @@ public class LoginPage extends Page {
     @FindBy(xpath = "//button[@value='Вход']")
     private WebElement buttonSubmit;
 
-    @FindBy(xpath = "//*[@id='headAuth']/div[1]/a[1]")
+    @FindBy(className = "j-profile-username")
     private WebElement linkLoggedInUser;
 
     @FindBy(xpath = "//*[@id='container']/tbody/tr/td/div[2]/b")
